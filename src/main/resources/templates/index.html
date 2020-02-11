@@ -3,36 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>My Recipes</title>
-    <link rel="stylesheet" href="myCSS.css" >
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Gravitas+One" rel="stylesheet">
+    <link rel="stylesheet" href="indexCSS.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Carme' rel="stylesheet">
+    <style>
+        body {
+            font-family:'Carme';font-size: 19px;
+        }
+    </style>
 </head>
-<body>
 
-<h1 id="top" class="ketotitle">My Friendly Recipe List</h1>
-<div class="container">
-    <div id="hover-me">
-        <h4 id="Tableofcontents">Table of Contents</h4>
+<body id="hover-image">
 
-<div id="Dominican Republic">
-      <img src="https://i.etsystatic.com/18539626/r/il/431436/1970608533/il_794xN.1970608533_pb82.jpg" alt="a typical recipe from the island" height="250" width="300">
-</div>
-        <div id="hover-content">
-            <table>
-
-                <ol>
-                    <tr><li><a href="#Rice Pudding">Rice Pudding</a></li></tr>
-                    <tr><li><a href="#fatbombs">Banana bread</a></li></tr>
-                    <tr><li><a href="#ketochow">Fruit Salad</a></li></tr>
-                </ol>
-
-                <p>These are my friendly recipe list</p>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/"><b>Home</b><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+                    Recipes</b>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"style="background-color: #e6f3f7">
+                    <a class="dropdown-item" href="/recipe1"><b>Recipe 1</b></a>
+                    <a class="dropdown-item" href="/recipe2"><b>Recipe 2</b></a>
+                    <a class="dropdown-item" href="/recipe3"><b>Recipe 3</b></a>
+                </div>
+            </li>
+        </ul>
     </div>
-            </table>
+</nav>
+
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+
+<h1 class="title"><b>Good Food My Recipes List</b></h1>
+
+<div class="card" style="background-color: #e6f3f7">
+    <div class="card-body">
+        <h2 class="card-title"><b>Welcome to my favorite recipes</b></h2>
+        <p class="card-text"></p>
+    </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
 
 
-<!--Pizza'rito begins--->
+
+
 
 
